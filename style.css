@@ -4,10 +4,9 @@ body input header{
     font-family: 'Roboto', sans-serif;
 }
 header{
-    max-width: 100%;
+    width: 95%;
     height: 60px;
-    align-items: center;
-    justify-content: center;
+   
     position: fixed;
     padding: 15px 15px;
     z-index: 5;
@@ -18,13 +17,12 @@ header{
     
     
 header input{
-    max-width:100%;
+   width:94%;
     height:50px;
     float:left;
     background:rgba(255,255,255,0.2);
     text-indent: 18px;
-
-    padding:0 60px 0 0;
+    padding: 0 60px 0 0 ;
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
     border-top-left-radius: 5px;
@@ -47,12 +45,17 @@ header button{
     top:15px;
     right:10px;
     z-index:2;
+  
+ 
     border-radius: 25px;
     background: white;
     border:none;
     outline:none;
 }
 .fas, .fa-plus{
-    height:30px;
-    width:30px;
+    height:auto;
+    widows: auto;
+    font-size: 1.5rem;
+    color:#25b99e;
+
 }
